@@ -1,0 +1,240 @@
+
+
+@media(min-width:768px) {
+
+    .cross{
+        display: none;
+    }
+    .main{
+        margin-left: 200px;
+    }
+    .about{
+        margin-left: 200px;
+    }
+    .resume{
+        margin-left: 200px;
+    }
+    .pro{
+        margin-left: 200px;
+    }
+    .services{
+        margin-left: 200px;
+    }
+    .portfolio{
+        margin-left: 200px;
+    }
+    .testimonials{
+        margin-left: 200px;
+    }
+    .contact{
+        margin-left: 200px;
+    }
+    footer{
+        margin-left: 200px;
+    }
+}
+
+@media(min-width:992px) {
+    .w-lg-1 {
+        width: 8.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-2 {
+        width: 16.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-3 {
+        width: 25%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-4 {
+        width: 33.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-5 {
+        width: 41.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-6 {
+        width: 50%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-7 {
+        width: 58.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-8 {
+        width: 66.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-9 {
+        width: 75%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-10 {
+        width: 83.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-11 {
+        width: 91.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-lg-12 {
+        width: 100%;
+        padding: 0px var(--gutter-width);
+    }
+
+    header {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
+
+    .main-banner {
+        justify-content: end;
+    }
+
+    .main-banner-content {
+        padding-right: 100px;
+    }
+
+
+}
+
+@media(min-width:1200px) {
+    .w-xl-1 {
+        width: 8.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-2 {
+        width: 16.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-3 {
+        width: 25%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-4 {
+        width: 33.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-5 {
+        width: 41.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-6 {
+        width: 50%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-7 {
+        width: 58.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-8 {
+        width: 66.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-9 {
+        width: 75%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-10 {
+        width: 83.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-11 {
+        width: 91.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xl-12 {
+        width: 100%;
+        padding: 0px var(--gutter-width);
+    }
+}
+
+@media(min-width:1400px) {
+    .w-xxl-1 {
+        width: 8.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-2 {
+        width: 16.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-3 {
+        width: 25%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-4 {
+        width: 33.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-5 {
+        width: 41.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-6 {
+        width: 50%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-7 {
+        width: 58.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-8 {
+        width: 66.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-9 {
+        width: 75%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-10 {
+        width: 83.33%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-11 {
+        width: 91.66%;
+        padding: 0px var(--gutter-width);
+    }
+
+    .w-xxl-12 {
+        width: 100%;
+        padding: 0px var(--gutter-width);
+    }
+}

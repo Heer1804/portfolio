@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- remixicon -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css">
+
+    <!-- owl caroursel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- media query -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+
+    <!-- bs -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div class="toggle fs-1 bg-1 px-4 text-light p-2">
+        <i class="fa-solid fa-toggle-off" data-bs-toggle="offcanvas" data-bs-target="#oc"></i>
+    </div>
+
+    <!-- offcanvas header-->
+    <section>
+        <div class="offcanvas show offcanvas-start d-flex flex-column " id="oc" data-bs-scroll="true"
+            data-bs-backdrop="false" style="width:200px;" >
+            <div class="offcanvas-header border-bottom ">
+                <span class="text-light cross">
+                    <i class="fa-solid fa-xmark" data-bs-dismiss="offcanvas"></i>
+                </span>
+                <img src="assets/image/hpwhite.png" alt="logo" class="img-fluid w-100 ">
+                <div class="text-light ">
+                </div>
+            </div>
+            <div class="offcanvas-body d-flex justify-content-center">
+                <ul class="main-menu ps-0 ">
+                    <li class="list-unstyled"><a href="#introduction"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="fa-solid fa-house-chimney"></i></span>
+                            <span>HOME</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#about"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="fa-solid fa-user"></i></span>
+                            <span>ABOUT</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#resume"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-5 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="ri-newspaper-line"></i></span>
+                            <span>RESUME</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#progress"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="fa-solid fa-suitcase"></i></span>
+                            <span>SKILLS</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#services"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i class="fa-solid fa-wrench"></i></span>
+                            <span>SERVICES</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#portfolio"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="fa-solid fa-box"></i></span>
+                            <span>PORTFOLIO</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#testimonials"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-6 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-5 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="ri-verified-badge-line"></i></span>
+                            <span>TESTIMONIALS</span>
+                        </a></li>
+                    <li class="list-unstyled "><a href="#contact"
+                            class="d-flex flex-column text-decoration-none pt-2 pb-2 align-items-center justify-content-center text-light fs-5 ">
+                            <span
+                                class="m-icon d-flex align-items-center justify-content-center fs-6 fw-normal pt-2 pb-2 mb-1"><i
+                                    class="fa-solid fa-phone"></i></span>
+                            <span>CONTACT</span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- main -->
+    <section class="main bg-1 py-5 ms-200" id="introduction">
+        <div class="container d-flex  min-vh-100 align-items-center" data-aos="fade-down" data-aos-duration="2000">
+            <div class="row  align-items-center flex-lg-row-reverse">
+                <div class="col-lg-6 ps-lg-5 mb-5 mb-lg-0 ">
+                    <div class="home-intro text-light">
+                        <h5>👋 Hi, I’ m</h5>
+                        <div class="h2 fw-bold display-3">Heer Parikh</div>
+                        <h1><br>I'm a</br>
+                            <h2 class="txt-type" data-wait="3000"
+                                data-words='["Full Stack Developer","Feerlancer","Web Developer", "Front-end Developer", "Back-end Developer"]'>
+                            </h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img src="assets/image/3.jpeg" alt="profile" class="img-fluid w-100 face rounded-5 back">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about bg-2 ms-200 py-100" id="about">
+        <div class="container ">
+            <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <div class="title-01 border-bottom text-light position-relative">
+                        <div class="fw-bold ms-3 fs-3 text-decoration-underline ">About Me</div>
+                        <p class="ms-3 fs-5">My Name is Heer Parikh</p>
+                        <p class="ms-3 h5 ">I'm Full Stack Developer</p>
+                        <p class="ms-3 grey align-items-center justify-content-evenly">I was born in the Gujarat state's Surat city in 2005. I graduate from high
+                            school in 2023 and begin my bachelor's degree program in computer applications right now.
+                        </p>
+                    </div>
+                    <div class="a_details">
+                        <ul class="list-unstyled ">
+                            <li class="mt-3 text p-2 bg-1">Name : Heer Parikh</li>
+                            <li class="mt-3 text p-2 bg-1">Date-Of-Birth : 18-04-2005</li>
+                            <li class="mt-3 text p-2 bg-1">Age : 18 years</li>
+                            <li class="mt-3 text p-2 bg-1">Gender : Female</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 ps-lg-5 ">
+                    <div class="row">
+                        <div class="col-xxl-7 mt-3">
+                            <img src="assets/image/2.jpeg" alt="" class="img-fluid w-100 rounded back">
+                        </div>
+                        <div class="col-xxl-5 py-4">
+                            <div class="a_details">
+                                <ul class="list-unstyled ">
+                                    <li class="d-flex align-items-center position-relative mt-3 py-4  px-4 bg-1">
+                                        <div
+                                            class="a-icon d-inline-flex align-items-center justify-content-center position-relative fs-4">
+                                            <i class="ri-mail-line text-white me-3 position-absolute"></i>
+                                        </div>
+                                        <div class="a-text ms-2">
+                                            <a href="javascript:void(0);"
+                                                class="text-decoration-none text-white fs-4">Mail
+                                                Me</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center position-relative  mt-4 py-4 px-4 bg-1">
+                                        <div
+                                            class="a-icon d-inline-flex align-items-center justify-content-center position-relative fs-4">
+                                            <i class="ri-whatsapp-line text-white me-3 position-absolute"></i>
+                                        </div>
+                                        <div class="a-text ms-2">
+                                            <a href="javascript:void(0);"
+                                                class="text-decoration-none text-white fs-4">Whatsapp Me</a>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex align-items-center position-relative  mt-4 py-4 px-4 bg-1">
+                                        <div
+                                            class="a-icon d-inline-flex align-items-center justify-content-center position-relative fs-4">
+                                            <i class="ri-phone-line text-white me-3 position-absolute"></i>
+                                        </div>
+                                        <div class="a-text ms-2">
+                                            <a href="javascript:void(0);"
+                                                class="text-decoration-none text-white  fs-4">Call
+                                                Me</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume -->
+    <section class="resume bg-1 ms-200 py-100" id="resume">
+        <div class="container">
+            <div class="r_title">
+                <div class="h3 text-center fw-bolder text-light fs-1 mb-4 text-decoration-underline">RESUME</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-block education m-4">
+                        <div class="h2 text-light fw-bold mb-4">
+                            Education
+                        </div>
+                        <ul class="border-start border-primary aa position-relative ">
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h4 fs-1 text">10th</div>
+                                <div class="fs-5">I complete my SSC in 2021 from Lourdes Convent High School with 81.63
+                                    percentile</div>
+                            </li>
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h4 fs-1 text">12th</div>
+                                <div class="fs-5">I complete my HSC in 2023 from Lourdes Convent High School with 78.87
+                                    percentile</div>
+                            </li>
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h6 fs-3 text">Bachelor of Computer Applications</div>
+                                <div class="fs-5">Currently pursuing a bachelor's degree at Sascma College, which is
+                                    affiliated with Veer Narmad South Gujarat University.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-block education m-4">
+                        <div class="h2 text-light mb-4 fw-bold">
+                            SKILLS
+                        </div>
+                        <ul class="border-start border-primary aa position-relative ">
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h4 fs-1 text">Languages</div>
+                                <div class="fs-5">English, Hindi, and Gujarati</div>
+                            </li>
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h4 fs-1">HOBBIES</div>
+                                <div class="fs-5">Reading, Travelling, Painting</div>
+                            </li>
+                            <li class="list-unstyled grey mb-4">
+                                <div class="h4 fs-1">CERTIFICATE COURSE</div>
+                                <div class="fs-5">Full Stack Developer at Red and White Multimedia Education</div>
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0);"><button class="btn btn-outline-primary text-light mt-5">Download
+                                CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- progress -->
+    <section class="pro bg-2 ms-200 py-100" id="progress">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000">
+            <div class="p_title">
+                <div class="h3 text-center fw-bolder text-light fs-1 mb-4 pb-3 text-decoration-underline">
+                    SKILLS
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row mx-5 mx-lg-0">
+                    <div class="col-xl-6">
+                        <div class="pro-card">
+                            <p class="h4 d-flex justify-content-between text mb-3 text-start">HTML
+                                <span class=" text small text">85%</span>
+                            </p>
+                            <div class="progress" role="progressbar">
+                                <div class="progress-bar-striped progress-bar-animated bg-primary" style="width: 85%">
+                                </div>
+                            </div>
+                            <p class="h4 text d-flex justify-content-between mb-3 mt-5">CSS
+                                <span class="float-end text small text">80%</span>
+                            </p>
+                            <div class="progress" role="progressbar">
+                                <div class="progress-bar-striped progress-bar-animated bg-primary" style="width: 80%">
+                                </div>
+                            </div>
+                            <p class="h4 text d-flex justify-content-between mb-3 mt-5">Photography
+                                <span class="float-end text small text">55%</span>
+                            </p>
+                            <div class="progress" role="progressbar">
+                                <div class="progress-bar-striped progress-bar-animated bg-primary" style="width: 55%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <p class="h4 text mt-5 mb-3 mt-xl-0">JS
+                            <span class="float-end text small text">75%</span>
+                        </p>
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar-striped progress-bar-animated bg-primary " style="width: 75%">
+                            </div>
+                        </div>
+                        <p class="h4 text mt-5 mb-3">BOOTSTRAP
+                            <span class="float-end text small text">85%</span>
+                        </p>
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar-striped progress-bar-animated bg-primary" style="width: 85%"></div>
+                        </div>
+                        <p class="h4 text mb-3 mt-5">CONTENT WRITING
+                            <span class="float-end text small text">65%</span>
+                        </p>
+                        <div class="progress" role="progressbar">
+                            <div class="progress-bar-striped progress-bar-animated bg-primary" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- servies -->
+    <section class="services bg-1 ms-200 py-100" id="services" >
+        <div class="container " data-aos="fade-down" data-aos-duration="3000">
+            <div class="h3 text-center fw-bolder text-light fs-1 mb-4 text-decoration-underline">
+                SERVICES
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="box p-3 mb-4 mb-lg-0 shadow border-0 rounded-3 position-relative">
+                        <div class="icon position-relative mb-4 ms-2">
+                            <i class="ri-smartphone-line bg-primary w-100 display-3 "></i>
+                        </div>
+                        <div class="feature-content text-light ">
+                            <div class="h3">Full stack integration</div>
+                            <p>Full-stack developers are well-versed with front and backend technologies that ensure
+                                efficient development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box p-3 shadow border-0 rounded-3 position-relative">
+                        <div class="icon position-relative mb-4 ms-2 ">
+                            <i class="ri-macbook-line bg-primary w-100 display-3"></i>
+                        </div>
+                        <div class="feature-content text-light ">
+                            <div class="h3">Front-end developer</div>
+                            <p>Front-end development services integrate well with web services and other external
+                                technologies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box p-3 mt-4 shadow border-0 rounded-3 position-relative">
+                        <div class="icon position-relative mb-4 ms-2 ">
+                            <i class="ri-database-2-line bg-primary w-100 display-3"></i>
+                        </div>
+                        <div class="feature-content text-light ">
+                            <div class="h3">Database Configuration</div>
+                            <p>We work on the frontend, backend, datab3ase, and debugging of web applications or
+                                websites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="box p-3 mt-4 shadow border-0 rounded-3 position-relative">
+                        <div class="icon position-relative mb-4  ">
+                            <i class="fa-brands fa-connectdevelop bg-primary ms-2 display-4"></i>
+                        </div>
+                        <div class="feature-content text-light ">
+                            <div class="h3">Back-end Developer</div>
+                            <p>It involves both the front end and backend development along with security, testing,
+                                QA,and much more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio bg-2 ms-200 py-100" id="portfolio">
+        <div class="container" data-aos="fade-down" data-aos-duration="2000">
+            <div class="h3 text-center fw-bolder text-light fs-1 mb-5 text-decoration-underline">
+                PORTFOLIO
+            </div>
+            <div class="row">
+                <div class="col-xl-6 port mb-5 position-relative" data-aos="fade-down" data-aos-duration="1000">
+                    <div
+                        class="p_text grey position-absolute text-bg-dark rounded-1 p-3 d-flex justify-content-between top-50 w-75 start-12 opacity-0 ">
+                        <div class="h4 ">
+                            Coffee Factory
+                            <p class="mt-2 text">Web design</p>
+                        </div>
+                        <a href="https://heer1804.github.io/coffeefactory/" target="_blank"
+                            class="text-decoration-none "><i
+                                class="ri-arrow-right-up-line text-light rounded blue p-1"></i></a>
+                    </div>
+                    <img src="assets/image/p6.png" alt="" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-xl-6 port position-relative mb-5" data-aos="fade-down" data-aos-duration="1000">
+                    <div
+                        class="p_text grey position-absolute text-bg-dark rounded-1 p-3 d-flex justify-content-between top-50 w-75 start-12 opacity-0 ">
+                        <div class="h4 ">
+                            Admin Panel
+                            <p class="mt-2 text">Web design</p>
+                        </div>
+                        <a href="https://heer1804.github.io/adminpanel/" target="_blank"
+                            class="text-decoration-none "><i
+                                class="ri-arrow-right-up-line text-light rounded blue p-1"></i></a>
+                    </div>
+                    <img src="assets/image/p7.png" alt="" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-xl-6 mb-5 port position-relative" data-aos="fade-down" data-aos-duration="1000">
+                    <div
+                        class="p_text grey position-absolute text-bg-dark rounded-1 p-3 d-flex justify-content-between top-50 w-75 start-12 opacity-0 ">
+                        <div class="h4 ">
+                            Fall Clothes Website
+                            <p class="mt-2 text">Web design</p>
+                        </div>
+                        <a href="https://heer1804.github.io/fallclothes/" target="_blank"
+                            class="text-decoration-none "><i
+                                class="ri-arrow-right-up-line text-light rounded blue p-1"></i></a>
+                    </div>
+                    <img src="assets/image/p1.png" alt="" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-xl-6 port mb-5 position-relative" data-aos="fade-down" data-aos-duration="1000">
+                    <div
+                        class="p_text grey position-absolute text-bg-dark rounded-1 p-3 d-flex justify-content-between top-50 w-75 start-12 opacity-0 ">
+                        <div class="h4 ">
+                            Coffee Factory
+                            <p class="mt-2 text">Web design</p>
+                        </div>
+                        <a href="https://heer1804.github.io/coffeefactory/" target="_blank"
+                            class="text-decoration-none "><i
+                                class="ri-arrow-right-up-line text-light rounded blue p-1"></i></a>
+                    </div>
+                    <img src="assets/image/p6.png" alt="" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonials bg-1 ms-200 py-100" id="testimonials">
+        <div class="container " data-aos="fade-up" data-aos-duration="3000">
+            <div class="h3 text-center fw-bolder text-light fs-1 mb-4 text-decoration-underline">
+                TESTIMONIALS
+            </div>
+
+            <div class="carousel slide owl-carousel owl-theme" data-bs-ride="carousel" id="review">
+                <div class="card text-bg-dark ">
+                    <div class="card-header m-2 d-flex justify-content-center border-bottom ">
+                        <img src="assets/image/avatar-1.jpg" alt=""
+                            class="img-fluid w-50 img-thumbnail rounded-circle ">
+                    </div>
+                    <div class="card-body ">
+                        <p class="grey fs-5">
+                            Customers and interested parties engaged
+                        </p>
+                        <p>I found it easy to capture my ideas and sketch visuals to sheare with my
+                            clints on the go</p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark ">
+                    <div class="card-header m-2 d-flex justify-content-center border-bottom ">
+                        <img src="assets/image/avatar-2.jpg" alt=""
+                            class="img-fluid w-50 img-thumbnail rounded-circle ">
+                    </div>
+                    <div class="card-body ">
+                        <p class="grey fs-5">
+                            Customers and interested parties engaged
+                        </p>
+                        <p>I find the userinterface very convinent. I recieved the expcted output from the developer.
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark ">
+                    <div class="card-header m-2 d-flex justify-content-center border-bottom ">
+                        <img src="assets/image/avatar-3.jpg" alt=""
+                            class="img-fluid w-50 img-thumbnail rounded-circle ">
+                    </div>
+                    <div class="card-body ">
+                        <p class="grey fs-5">
+                            Customers and interested parties engaged
+                        </p>
+                        <p>I found it easy to capture my ideas and sketch visuals to sheare with my
+                            clints on the go</p>
+                    </div>
+                </div>
+                <div class="card text-bg-dark ">
+                    <div class="card-header m-2 d-flex justify-content-center border-bottom ">
+                        <img src="assets/image/avatar-2.jpg" alt=""
+                            class="img-fluid w-50 img-thumbnail rounded-circle ">
+                    </div>
+                    <div class="card-body ">
+                        <p class="grey fs-5">
+                            Customers and interested parties engaged
+                        </p>
+                        <p>I found it easy to capture my ideas and sketch visuals to sheare with my
+                            clints on the go</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact bg-2 ms-200 py-100" id="contact">
+        <div class="container ">
+            <div class="c_title">
+                <div class="h3 text-center fw-bolder text-light fs-1 mb-5 text-decoration-underline">
+                    GET IN TOUCH
+                </div>
+            </div>
+            <form class="row">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="grey h5">First Name</div>
+                    <input type="text" class="form-control shadow" placeholder="First name" required>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="grey h5 mt-3 mt-lg-0 ">Last Name</div>
+                    <input type="text" class="form-control shadow" placeholder="Last name" required>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="grey h5 mt-4">Address</div>
+                    <textarea class="form-control shadow" placeholder="Address" id="floatingTextarea"></textarea>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="grey h5 mt-4">E-Mail Address</div>
+                    <input type="email" class="form-control shadow" placeholder="Enter your E-mail" required>
+                </div>
+                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="grey h5 mt-4">Message</div>
+                    <textarea class="form-control shadow" placeholder="Enter your Message" id="floatingTextarea"
+                        required></textarea>
+                </div>
+                <a href="javascript:void(0);"><button class="btn btn-outline-primary shadow text-light mt-5 flo"
+                        data-aos="fade-up" data-aos-duration="2000">Send Response</button></a>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="bg-1 ms-200">
+            <div class="d-flex flex-wrap me-4 py-3 justify-content-end">
+                <div class="text-light">
+                    <span>Created By:
+                        <a href="#introduction" class="text-decoration-none text-primary">
+                            Heer Parikh
+                        </a>
+                    </span>
+                    <div>
+                        <p>
+                            @2023 copyright all right reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"
+        class="position-fixed z-3 border-0 blue text-white p-3 rounded-3"><i
+            class="fa-solid fa-jet-fighter-up fs-5 "></i></button>
+
+    <!-- script -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+
+</html>

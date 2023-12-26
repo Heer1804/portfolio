@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root {
+    --offcanvas: #2d2f31;
+    --hover: #01497c;
+    --bg_1: #1f1f1f;
+    --bg_2: #28292a;
+    --border: #444746;
+    --text: #c4c7c5;
+    --round: #2d2f31;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* utilities class */
+.grey {
+    color: #c4c7c5;
+}
+.text {
+    color: #dfe5f2;
+}
+.bg-1 {
+    background-color: #1f1f1f;
+}
+.bg-2 {
+    background-color: #28292a;
+}
+/* .ms-200 {
+    margin-left: 200px;
+} */
+.py-100 {
+    padding: 100px 0px;
+}
+.blue {
+    background-color: #012a4a;
+}
+.start-12 {
+    left: 12%;
+}
+.shadow{
+    box-shadow: 0px 0px 11px 5px #7a77779a !important;
+}
+.offcanvas {
+    background-color: var(--offcanvas);
+    box-shadow: 2px 2px 20px rgb(112, 119, 119);
+}
+.main-menu .m-icon {
+    transition: all .35s ease;
+    width: 45px;
+}
+.main-menu li a .m-icon:hover {
+    background-color: var(--hover);
+    border-radius: 50px;
+}
+/* Cursor */
+.txt-type>.txt {
+    border-right: 0.2rem solid #777;
+}
+@media(min-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+@media(max-width: 800px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+@media(max-width: 500px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+.title-01:after {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: -8px;
+    width: 8px;
+    height: 8px;
+    background: var(--hover);
+}
+.about li {
+    border: 2px solid var(--border);
+    border-radius: 12px;
+    transition: all .35s ease;
+}
+.about li .a-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--round);
+}
+.about li .a-icon i {
+    left: 8px;
+}
+.about li:hover {
+    background-color: var(--hover);
+}
+.resume .education .aa li::before {
+    left: 0;
+    content: "\f30b";
+    font-family: 'FontAwesome';
+    position: absolute;
+    color: var(--hover);
+}
+.progress {
+    animation: load 3s normal forwards;
+}
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+.icon {
+    width: 70px;
+    height: 70px;
+}
+.p_text {
+    transition: all .5s ease;
+}
+.port:hover .p_text {
+    opacity: 0.95 !important;
+}
+.owl-dot {
+    height: 13px !important;
+    width: 13px !important;
+    margin: 0 5px !important;
+    outline: none !important;
+    border-radius: 50% !important;
+    border: 2px solid var(--hover) !important;
+    transition: all 0.3s ease !important;
+}
+.owl-dot.active {
+    width: 20px !important;
+    border-radius: 14px !important;
+}
+.owl-dot.active,
+.owl-dot:hover {
+    background-color: var(--hover) !important;
+}
+.owl-dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 25px;
+    align-items: center;
+}
+.box .icon {
+    transition: all 0.3s ease-out;
+}
+.box:hover .icon {
+    transform: rotate(20deg);
+}
+.contact form div input {
+    transition: all 0.2s linear;
+}
+.contact form div textarea {
+    transition: all 0.2s linear;
+}
+.contact form div input:hover {
+    box-shadow: 0px 0px 10px 5px var(--hover) !important;
+}
+.contact form div textarea:hover {
+    box-shadow: 0px 0px 10px 5px var(--hover) !important;
+}
+#myBtn {
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+#myBtn:hover {
+    background-color: #0096c7;
+    box-shadow: 0px 0px 18px 5px var(--hover) !important;
+}
+#myBtn {
+    animation: grow 3s ease-out infinite;
+}
+@keyframes grow {
+    from {
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
